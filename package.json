@@ -1,0 +1,27 @@
+{
+  "name": "phonebook",
+  "version": "1.0.0",
+  "description": "HTTP API to search for business phone numbers",
+  "main": "src/index.js",
+  "scripts": {
+    "format": "npm exec -- prettier --write .",
+    "lint": "npm exec -- eslint .",
+    "test": "node --test"
+  },
+  "author": "Géry Ogam <gery.ogam@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "jsdom": "^21.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "eslint-config-prettier": "^8.8.0",
+    "prettier": "^2.8.8"
+  },
+  "bin": "src/index.js",
+  "files": [
+    "/src",
+    "/config.json"
+  ]
+}
